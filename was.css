@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400");
+@font-face { font-family: LeanForeword; src: url('LeanForeword.woff'); 
+}
+	
+html, body{
+		
+	 background-color: #ffef7a;
+   padding: 0;
+   margin: 0;
+   height:100%;
+  
+   
+ }
+
+	#gradient {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+   max-width: 100%;
+    overflow-x: hidden;
+}
+
+	.row {
+	text-align: center;
+	font-family:LeanForeword;
+	padding: 1.2%;
+}
+
+
+	.row2 {
+	text-align: center;
+	font-family:LeanForeword;
+	padding: 10.2%;
+}
+
+
+.slideshow {
+	max-width:70%;
+	
+	margin: 0 auto;
+	display:block;
+}
+
+
+	.row h1 {
+		font-size: 300%;
+		color: #ffef7a;
+		-webkit-text-stroke: 1px #f23607;
+		-webkit-text-stroke-width: 2.75px;
+		-webkit-text-fill-color: #ffef7a;
+		
+}
+.content1 {
+margin: auto;
+    width: 70%;
+	
+ 
+}
+.content1 {
+margin: auto;
+    width: 70%;
+	
+ 
+}
+
+	
+#cover {
+display:block;
+    margin:auto;
+    width: 50%;
+min-width:300px;
+ padding:20px; 
+}
+
+.content h2 {
+	text-align: center;
+	font-family:LeanForeword;
+	padding: 1.2%;
+	font-size: 170%;
+	
+	-webkit-text-stroke: 1px #f23607;
+		-webkit-text-stroke-width: 2px;
+		-webkit-text-fill-color: #ffef7a;
+}
+
+
+.content1 h2 {
+	text-align: center;
+	font-family:LeanForeword;
+	padding: 1.2%;
+	font-size: 170%;
+	
+	-webkit-text-stroke: 1px #f23607;
+		-webkit-text-stroke-width: 2px;
+		-webkit-text-fill-color: #ffef7a;
+}
+
+
+
+.table{
+	margin: 0 auto;
+}
+	
+#nav {
+	float: left;
+	text-align: center;
+	overflow:hidden;
+	position: relative;
+}
+
+.artistinfo p{
+	text-align: center;
+	border-style: solid;
+	border-width: medium;
+	width: 50%;
+	margin: 0 auto;
+	border-color: #f23607;
+}
+
+#iconnav {
+	float: left;
+	text-align: center;
+	
+	position: relative;
+}
+
+#iconnav li a {
+		
+		width:80%;
+		 text-align: center;
+		padding:1% 0.3%;
+		font-size:1.2em;		
+	
+	}
+
+.content p{
+	border: bouble;
+	}
+
+	
+* {
+		margin: 0;
+		padding: 0;
+	}
+	ul {
+		width:100%;
+		list-style:none;	
+		
+		
+	}
+
+	li {
+		width:13%;
+		display: inline;
+		
+
+	}
+	li:last-child {
+		border-right:none;
+		
+		
+	}
+
+	li a {
+		
+		width:80%;
+		 text-align: center;
+		font-family:LeanForeword;
+		padding:4% 3%;
+		font-size:1.2em;
+		text-decoration: none;
+		color:transparent;
+		-webkit-text-stroke: 1px #f23607;
+		-webkit-text-stroke-width: 1.3px;
+		
+	}
+	
+	li a:visited {
+		color:#ffef7a;
+	}
+	li a:hover {
+		color:#ffef7a;
+	}
+.mySlides {display:none;}
+
+
+
+	
+iframe {
+	
+	margin: 0 auto;
+	display:block;
+	width: 60%; 
+	height: 160%;
+}
+	@media screen and (max-width: 768px) {
+		#menu {
+			width:1.4em;
+			display: block;
+			background:#ffef7a;
+			font-size:1.35em;
+			text-align: center;
+		}
+		#nav.js {
+			display: none;
+			
+		}
+		ul {
+			width:100%;
+			list-style:none;
+		}
+		li {
+			width:100%;
+			border-right:none;
+		}
+		
+	#nav li a {
+			font-size: 100%;
+			
+		}
+		
+	#iconnav li a {
+		
+		width:80%;
+		 text-align: center;
+		padding:1% 0.9%;
+		font-size:1.2em;		
+	
+	}
+	
+
+		
+		iframe {
+	
+	margin: 0 auto;
+	display:block;
+	width: 95%; 
+	height: 95%;
+	;
+	}
+	
+
+	
+.slideshow {
+	max-width:95%;
+	
+	margin: 0 auto;
+	display:block;
+}
+	.artistinfo p{
+	text-align: center;
+	border-style: double;
+	border-width: thick;
+	width: 80%;
+	margin: 0 auto;
+}
+	
+.row h1 {
+		font-size: 230%;
+		color: #ffef7a;
+		-webkit-text-stroke: 1px #f23607;
+		-webkit-text-stroke-width: 2.75px;
+		-webkit-text-fill-color: #ffef7a;
+		
+}
+	
+#cover {
+display:block;
+    margin:auto;
+    width: 70%;
+min-width:265px;
+ padding:20px; 
+}
+	
+
+		
+	}
+		
+	
+	
+	
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 1.2%; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+	font-family: "Arial", Times, serif;
+	}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.contact-form {
+    border-radius: 5px;
+   
+    padding: 10px;
+}
+	
+	
+@media screen and (max-width: 321px) {
+	
+	#cover {
+display:block;
+    margin:auto;
+    width: 90%;
+min-width:225px;
+ padding:20px; 
+}
+#nav li a {
+			font-size: 80%;
+			
+		}
+		
+}
+	
+
+@media screen and (max-width: 425px) {
+	
+	#cover {
+display:block;
+    margin:auto;
+    width: 90%;
+min-width:225px;
+ padding:20px; 
+}
+#nav li a {
+			font-size: 80%;
+			
+		}
+		
+}
+	
+	
